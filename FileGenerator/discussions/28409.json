@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "94759",
+    "ThreadId": "28409",
+    "Html": "<br>\r\nDoes FileGenerator support command line options?  It would be nice if it can be used in a script, eg.<br>\r\n<br>\r\nReflector.exe /Run:FileGenerator.dll /Assembly:abc.dll /OutputDir:c:\\src /CreateSubdirectories<br>\r\n<br>\r\nThank you for sharing your cool program!<br>\r\n<br>\r\n",
+    "PostedDate": "2008-05-26T06:06:04.823-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "134755",
+    "ThreadId": "28409",
+    "Html": "First, sorry for the really late response to this! I never noticed it until now :(<br>\r\n<br>\r\nThat's a good idea, but I'm not sure if Reflector will pass command-line args like this to an add-in. I'll see what I can find...<br>\r\n<br>\r\nRegards,<br>\r\nJason\r\n",
+    "PostedDate": "2008-11-24T06:10:41.743-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

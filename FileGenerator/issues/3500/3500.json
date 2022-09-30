@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2008-12-18T12:45:52.857-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Rather than have it as a property that's set, make it required on construction (as Generate() in FileGenerator will throw an exception anyway...this will get rid of a custom exception as I can throw ArgumentNullException, which would make more sense).",
+    "LastUpdatedDate": "2017-11-29T06:24:19.84-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "FileGenReflector",
+    "ReportedDate": "2008-12-12T13:21:53.41-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Make Context a required parameter to the creation of a FileGenerator",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 3500
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

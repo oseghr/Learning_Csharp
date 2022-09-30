@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "I didn't get that bug, but I got this:\n\nSystem.InvalidOperationException was unhandled\n  Message=\"Invalid branching statement for condition expression with target offset 00CE.\"\n  Source=\"Reflector.Application\"\n  StackTrace:\n       at ឺ.ᜆ(Int32 A_0)\n       at ឺ.ᜋ(Int32 A_0)\n       at ឺ.ᜂ(Int32 A_0, Int32 A_1)\n       at ឺ.ᜀ(IMethodDeclaration A_0, IMethodBody A_1)\n       at ឤ.ᜀ(IMethodDeclaration A_0)\n       at ᜭ.ᜁ(IMethodDeclarationCollection A_0)\n       at ឤ.ᜀ(ITypeDeclaration A_0)\n       at ឥ.ᜀ(ITypeDeclaration A_0, Boolean A_1, Boolean A_2)\n       at FileGenerator.AddIn.Generators.TypeFileGenerator.GetFormatter() in C:\\JasonBock\\Personal\\.NET Projects\\FileGenerator\\FileGenerator\\AddIn\\Generators\\TypeFileGenerator.cs:line 86\n       at FileGenerator.AddIn.Generators.TypeFileGenerator.Generate() in C:\\JasonBock\\Personal\\.NET Projects\\FileGenerator\\FileGenerator\\AddIn\\Generators\\TypeFileGenerator.cs:line 113\n       at FileGenerator.AddIn.Generators.ModuleFileGenerator.Generate() in C:\\JasonBock\\Personal\\.NET Projects\\FileGenerator\\FileGenerator\\AddIn\\Generators\\ModuleFileGenerator.cs:line 45\n       at FileGenerator.AddIn.Generators.AssemblyFileGenerator.Generate() in C:\\JasonBock\\Personal\\.NET Projects\\FileGenerator\\FileGenerator\\AddIn\\Generators\\AssemblyFileGenerator.cs:line 123\n       at FileGenerator.AddIn.UI.FileGeneratorControl.GenerateFiles(Object data) in C:\\JasonBock\\Personal\\.NET Projects\\FileGenerator\\FileGenerator\\AddIn\\UI\\FileGeneratorControl.cs:line 338\n       at System.Threading._ThreadPoolWaitCallback.WaitCallback_Context(Object state)\n       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)\n       at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)\n       at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)\n  InnerException: \n\nWhen I debugged it, it was when it was trying to write out the following class:\n\nnet.sf.robocode.serialization.RbSerializer\n\nSeems like the problem is with deepCopy():\n\n[Please describe what might have caused this error.]\n\nTranslation failure in 'net.sf.robocode.serialization.RbSerializer.deepCopy(Byte, Object) : Object' in 'robocode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.\n\nSystem.InvalidOperationException\n\n\nInnerException:\n\nInvalid branching statement for condition expression with target offset 0038.\n\nSystem.InvalidOperationException\n\n   at ឺ.ᜆ(Int32 A_0)\n   at ឺ.ᜋ(Int32 A_0)\n   at ឺ.ᜂ(Int32 A_0, Int32 A_1)\n   at ឺ.ᜀ(IExceptionHandler A_0)\n   at ឺ.ᜂ(Int32 A_0, Int32 A_1)\n   at ឺ.ᜀ(IMethodDeclaration A_0, IMethodBody A_1)\n   at ឤ.ᜀ(IMethodDeclaration A_0)\n   at ឥ.ᜁ(IMethodDeclaration A_0)\n   at ᝎ.ᜀ(Boolean A_0, Boolean A_1, Boolean A_2)\n\nBoth of these seem like they're Reflector-based. I'd suggest you take this up with Red Gate.",
+    "ClosedDate": "2009-03-26T10:13:34.213-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "You could reproduce by decompilation of attached DLL.\nYou may need ikvm binaries\nhttp://www.frijters.net/ikvmbin-0.39.3363.zip\n \n \tFileGenerator.dll!FileGenerator.AddIn.Generators.AssemblyFileGenerator.InitializeEmbeddedResourcesGroup() + 0x53 bytes\t\n \tFileGenerator.dll!FileGenerator.AddIn.Generators.AssemblyFileGenerator.Generate() + 0x3a bytes\t\n\tFileGenerator.dll!FileGenerator.AddIn.UI.FileGeneratorControl.GenerateFiles(object data) + 0x1f2 bytes\t\n \tmscorlib.dll!System.Threading._ThreadPoolWaitCallback.WaitCallback_Context(object state) + 0x2f bytes\t\n \tmscorlib.dll!System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, object state) + 0x6f bytes\t\n \tmscorlib.dll!System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(System.Threading._ThreadPoolWaitCallback tpWaitCallBack) + 0x53 bytes\t\n \tmscorlib.dll!System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(object state) + 0x59 bytes",
+    "LastUpdatedDate": "2013-05-16T03:26:22.373-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "FileGenReflector",
+    "ReportedDate": "2009-03-22T11:14:26.61-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "NullPoinerException - InitializeEmbeddedResourcesGroup",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3938
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1451,
+      "FileName": "robocode.dll",
+      "DownloadUrl": ".\\1451"
+    }
+  ],
+  "Comments": []
+}

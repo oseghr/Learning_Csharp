@@ -1,0 +1,36 @@
+[
+  {
+    "Id": "0",
+    "Name": "4.1.0.0 Release",
+    "DevelopmentStatus": "Stable",
+    "Description": "This is the first official release of this project - just unzip the files, that's it.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-11-19T12:46:54.03-08:00",
+    "Files": [
+      {
+        "Id": "51ce25ce-ec80-4bed-be62-432f81dd565a",
+        "FileName": "FileGenerator.Release.zip",
+        "Url": "./0/51ce25ce-ec80-4bed-be62-432f81dd565a",
+        "Type": "Source Code",
+        "UploadDate": "2008-11-19T12:46:53.687-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "5.0.0.0 Release",
+    "DevelopmentStatus": "Stable",
+    "Description": "* Unit tests are now in the code base. Current code coverage numbers: 63%. So...there's still more work to be done, but at least it's better than 0%!\n* The exceptions are gone in the UI. This was a deliberate design decision to remove what I considered bad exception handling practices in the code base. Plus, with unit tests in place, any unexpected bugs will get covered with new unit tests in the future.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-12-21T12:34:19.793-08:00",
+    "Files": [
+      {
+        "Id": "d09a7a87-8ac9-4b7e-970e-6a7bf63d063d",
+        "FileName": "FileGenerator.Release.zip",
+        "Url": "./1/d09a7a87-8ac9-4b7e-970e-6a7bf63d063d",
+        "Type": "Application",
+        "UploadDate": "2008-12-21T12:34:19.463-08:00"
+      }
+    ]
+  }
+]

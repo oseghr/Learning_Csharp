@@ -1,0 +1,11 @@
+C:\Users\oseghae.oaikhena\Desktop\C#\Learning C#\IntroC\IntroC\bin\Debug\netcoreapp2.1\IntroC.deps.json
+C:\Users\oseghae.oaikhena\Desktop\C#\Learning C#\IntroC\IntroC\bin\Debug\netcoreapp2.1\IntroC.runtimeconfig.json
+C:\Users\oseghae.oaikhena\Desktop\C#\Learning C#\IntroC\IntroC\bin\Debug\netcoreapp2.1\IntroC.runtimeconfig.dev.json
+C:\Users\oseghae.oaikhena\Desktop\C#\Learning C#\IntroC\IntroC\bin\Debug\netcoreapp2.1\IntroC.dll
+C:\Users\oseghae.oaikhena\Desktop\C#\Learning C#\IntroC\IntroC\bin\Debug\netcoreapp2.1\IntroC.pdb
+C:\Users\oseghae.oaikhena\Desktop\C#\Learning C#\IntroC\IntroC\obj\Debug\netcoreapp2.1\IntroC.csprojAssemblyReference.cache
+C:\Users\oseghae.oaikhena\Desktop\C#\Learning C#\IntroC\IntroC\obj\Debug\netcoreapp2.1\IntroC.csproj.CoreCompileInputs.cache
+C:\Users\oseghae.oaikhena\Desktop\C#\Learning C#\IntroC\IntroC\obj\Debug\netcoreapp2.1\IntroC.AssemblyInfoInputs.cache
+C:\Users\oseghae.oaikhena\Desktop\C#\Learning C#\IntroC\IntroC\obj\Debug\netcoreapp2.1\IntroC.AssemblyInfo.cs
+C:\Users\oseghae.oaikhena\Desktop\C#\Learning C#\IntroC\IntroC\obj\Debug\netcoreapp2.1\IntroC.dll
+C:\Users\oseghae.oaikhena\Desktop\C#\Learning C#\IntroC\IntroC\obj\Debug\netcoreapp2.1\IntroC.pdb

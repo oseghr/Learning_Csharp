@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Fields order is not restored during disassembly.\nSo, most of types in reassembled *.XmlSerializers.dll would not properly serialized in the case when the XSD requires a certain order of xmlnode.",
+    "LastUpdatedDate": "2013-02-21T15:37:31.723-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "FileGenReflector",
+    "ReportedDate": "2012-01-19T13:31:26.143-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Fields order",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9133
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

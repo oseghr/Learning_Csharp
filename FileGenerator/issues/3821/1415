@@ -1,0 +1,17 @@
+﻿System.InvalidOperationException: Block statement count of zero during condition expression translation.
+   at ឺ.ᜆ(Int32 A_0)
+   at ឺ.ᜋ(Int32 A_0)
+   at ឺ.ᜂ(Int32 A_0, Int32 A_1)
+   at ឺ.ᜆ(Int32 A_0)
+   at ឺ.ᜋ(Int32 A_0)
+   at ឺ.ᜂ(Int32 A_0, Int32 A_1)
+   at ឺ.ᜀ(IMethodDeclaration A_0, IMethodBody A_1)
+   at ឤ.ᜀ(IMethodDeclaration A_0)
+   at ᜭ.ᜁ(IMethodDeclarationCollection A_0)
+   at ឤ.ᜀ(ITypeDeclaration A_0)
+   at ឥ.ᜀ(ITypeDeclaration A_0, Boolean A_1, Boolean A_2)
+   at ប.ᜀ(ITypeDeclaration A_0, String A_1, ILanguageWriterConfiguration A_2)
+namespace Microsoft.Tools.ServiceModel.SvcUtil
+{
+}
+

@@ -1,0 +1,54 @@
+[
+  {
+    "Id": 2129,
+    "Title": "Issues with compilation"
+  },
+  {
+    "Id": 3396,
+    "Title": "Remove Bad Exception Handling"
+  },
+  {
+    "Id": 3397,
+    "Title": "Add Unit Tests"
+  },
+  {
+    "Id": 3398,
+    "Title": "Change Project Wording in UI"
+  },
+  {
+    "Id": 3500,
+    "Title": "Make Context a required parameter to the creation of a FileGenerator"
+  },
+  {
+    "Id": 3520,
+    "Title": "Add Tests for Resource Generation"
+  },
+  {
+    "Id": 3521,
+    "Title": "Add Tests With a Listener to FileGenerated Event for Each Generator"
+  },
+  {
+    "Id": 3527,
+    "Title": "Allow the User to Disable File Updates in the UI"
+  },
+  {
+    "Id": 3528,
+    "Title": "Save UI Options"
+  },
+  {
+    "Id": 3821,
+    "Title": "exception when generating files for SvcUtil.exe"
+  },
+  {
+    "Id": 3841,
+    "Title": "Members sometimes do not get exported when needed"
+  },
+  {
+    "Id": 3938,
+    "Title": "NullPoinerException - InitializeEmbeddedResourcesGroup"
+  },
+  {
+    "Id": 9133,
+    "Title": "Fields order"
+  }
+]

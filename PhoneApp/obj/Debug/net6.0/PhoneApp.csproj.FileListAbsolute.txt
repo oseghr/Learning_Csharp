@@ -1,0 +1,15 @@
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\bin\Debug\net6.0\PhoneApp.exe
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\bin\Debug\net6.0\PhoneApp.deps.json
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\bin\Debug\net6.0\PhoneApp.runtimeconfig.json
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\bin\Debug\net6.0\PhoneApp.dll
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\bin\Debug\net6.0\PhoneApp.pdb
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\obj\Debug\net6.0\PhoneApp.csproj.AssemblyReference.cache
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\obj\Debug\net6.0\PhoneApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\obj\Debug\net6.0\PhoneApp.AssemblyInfoInputs.cache
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\obj\Debug\net6.0\PhoneApp.AssemblyInfo.cs
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\obj\Debug\net6.0\PhoneApp.csproj.CoreCompileInputs.cache
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\obj\Debug\net6.0\PhoneApp.dll
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\obj\Debug\net6.0\refint\PhoneApp.dll
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\obj\Debug\net6.0\PhoneApp.pdb
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\obj\Debug\net6.0\PhoneApp.genruntimeconfig.cache
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\PhoneApp\obj\Debug\net6.0\ref\PhoneApp.dll

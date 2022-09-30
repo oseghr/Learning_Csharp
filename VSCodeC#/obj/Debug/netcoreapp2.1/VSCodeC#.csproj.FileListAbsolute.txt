@@ -1,0 +1,11 @@
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\VSCodeC#\bin\Debug\netcoreapp2.1\VSCodeC#.deps.json
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\VSCodeC#\bin\Debug\netcoreapp2.1\VSCodeC#.runtimeconfig.json
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\VSCodeC#\bin\Debug\netcoreapp2.1\VSCodeC#.runtimeconfig.dev.json
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\VSCodeC#\bin\Debug\netcoreapp2.1\VSCodeC#.dll
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\VSCodeC#\bin\Debug\netcoreapp2.1\VSCodeC#.pdb
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\VSCodeC#\obj\Debug\netcoreapp2.1\VSCodeC#.csprojAssemblyReference.cache
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\VSCodeC#\obj\Debug\netcoreapp2.1\VSCodeC#.csproj.CoreCompileInputs.cache
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\VSCodeC#\obj\Debug\netcoreapp2.1\VSCodeC#.AssemblyInfoInputs.cache
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\VSCodeC#\obj\Debug\netcoreapp2.1\VSCodeC#.AssemblyInfo.cs
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\VSCodeC#\obj\Debug\netcoreapp2.1\VSCodeC#.dll
+C:\Users\oseghae.oaikhena\Desktop\CSharpASP.NET\Learning C#\VSCodeC#\obj\Debug\netcoreapp2.1\VSCodeC#.pdb

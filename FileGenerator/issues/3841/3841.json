@@ -1,0 +1,71 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I ran into a small bug with the exporting. I'm attaching Microsoft.Xna.Framework.Game.dll. If you export it with FileGenerator, it *almost* works perfectly. Just one little thing.\n \nIt's not exporting the private EventHandler members \"deviceCreated\", \"deviceDisposing\", and a couple others from GraphicsDeviceManager, into the .cs file. The csproj wouldn't compile until I copied them in from the Reflector disassembly.\n \nNote that when I do add those in and compile, I get a warning from the compiler that they are never assigned to (yet they are still referenced in the .cs file). Could that be the reason they do not get exported?",
+    "LastUpdatedDate": "2013-02-21T15:37:32.82-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "FileGenReflector",
+    "ReportedDate": "2009-02-18T10:32:42.213-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Members sometimes do not get exported when needed",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3841
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1420,
+      "FileName": "Microsoft.Xna.Framework.Game.dll",
+      "DownloadUrl": ".\\1420"
+    },
+    {
+      "FileId": 1437,
+      "FileName": "Microsoft.Xna.Framework.dll",
+      "DownloadUrl": ".\\1437"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "I'm not sure. FileGenerator is very \"light-weight\" in that I don't do much of anything other than write to a file what Reflector generates for the assemblies. So if Reflector doesn't generate this stuff for a type, I won't see it.\r\n\r\nBTW I can't gen the files based on this assembly alone, I need other references. But PLEASE don't post all the other XNA assemblies as well :).",
+      "PostedDate": "2009-03-02T14:21:30.37-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Posting Microsoft.Xna.Framework.dll.",
+      "PostedDate": "2009-03-11T18:25:01.217-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-03-11T18:25:03.903-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T15:37:32.82-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "VywyCRetbwMVx4tBjZfr21RkkKGgG6H8aXmH/99F5CxrEsMy4M07gD4jju66EtsgNLk5Ap3yNf4OdK5vfCaTKg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oseghae.oaikhena\\Desktop\\CSharpASP.NET\\Learning C#\\CodingTracker\\codingtracker\\codingtracker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oseghae.oaikhena\\.nuget\\packages\\microsoft.data.sqlite\\6.0.8\\microsoft.data.sqlite.6.0.8.nupkg.sha512",
+    "C:\\Users\\oseghae.oaikhena\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.8\\microsoft.data.sqlite.core.6.0.8.nupkg.sha512",
+    "C:\\Users\\oseghae.oaikhena\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\oseghae.oaikhena\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "C:\\Users\\oseghae.oaikhena\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\oseghae.oaikhena\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.6\\sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\oseghae.oaikhena\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
